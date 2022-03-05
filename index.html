@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/HomePage.css">
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Intergalactic Bakery</title>
+</head>
+<header>    
+    <nav>
+        <div>
+            <img src="./Assets/img/Logo horizontal.png" alt="Logo Pasteleria" id="LogoNav">
+        </div>
+        <div class="NavLinkContainer">
+            <a href="#Pasteles" class="NavLink">Pasteles</a>
+            <a href="#Decoraciones" class="NavLink">Decoraciones</a>
+            <a href="#Pedido" class="NavLink">Haz tu pedido</a>
+            <a href="#Contacto" class="NavLink">Contáctanos</a>
+        </div>
+    </nav>
+</header>
+<body>
+<section id="Presentation">
+  <div class="spacer"></div>
+  <img src="./Assets/img/Logo.png" alt="Logo Intergalactic Bakery" id="Logo">  
+  <h1>Intergalactic Bakery</h1>
+  <p><a href="./PasteleroPage.html" class="white" target="_blank">Ir a la vista del pastelero</a></p>
+</section>
+  <section id="Pasteles">
+    <h2>Pasteles</h2>
+    <div class="ContainerPasteles">
+    <div class="PastelImgContainer">
+        <img src="./Assets/img/Vainilla.jpg" alt="Pastel de Vainilla" class="PastelImg">
+        <h3>Vainilla</h3>
+        <p>Pastel con pan sabor vainilla, con dulce de leche y cubierta sabor vainilla</p>
+        <p class="green">Precio: $250</p>
+    </div>
+    <div class="PastelImgContainer">
+        <img src="./Assets/img/RedVelvet.jpg" alt="Pastel de Red Velvet" class="PastelImg">
+        <h3>Red Velvet</h3>
+        <p>Pastel con pan sabor a Red Velvet, relleno y cubierta de chocolate blanco</p>
+        <p class="green">Precio: $240</p>
+    </div>
+    <div class="PastelImgContainer">
+        <img src="./Assets/img/ChocolateOscuro.jpg" alt="Pastel de Chocolate Oscuro" class="PastelImg">
+        <h3>Chocolate Oscuro</h3>
+        <p>Pastel con pan de de chocolate amargo y cubierta de chocolate semi-amargo</p>
+        <p class="green">Precio: $280</p>
+    </div>
+    <div class="PastelImgContainer">
+        <img src="./Assets/img/Moka.jpg" alt="Pastel Moka" class="PastelImg">
+        <h3>Moka</h3>
+        <p>Pastel con pan de chocolate con café y cubierta sabor kalhua con nueces</p>
+        <p class="green">Precio: $300</p>
+    </div>
+    <div class="PastelImgContainer">
+        <img src="./Assets/img/Zanahoria.jpg" alt="Pastel de Zanahoria" class="PastelImg">
+        <h3>Zanahoria</h3>
+        <p>Pastel de pan de zanahoria, cubierta de vainilla y nueces</p>
+        <p class="green">Precio: $270</p>
+    </div>
+    <div class="PastelImgContainer">
+        <img src="./Assets/img/TresLeches.jpg" alt="Pastel de Tres Leches" class="PastelImg">
+        <h3>Tres leches</h3>
+        <p>Pastel de tres leches con cobertura sabor vainilla</p>
+        <p class="green">Precio: $275</p>
+    </div>
+    </div>
+  </section>
+
+    <section id="Decoraciones">
+        <h2>Decoraciones</h2>
+        <div class="ContainerDecoraciones">
+        <div class="DecoracionImgContainer">
+            <img src="./Assets/img/Frutas.jpg" alt="Pastel decorado con frutas" class="DecoracionImg">
+            <h3>Fruta</h3>
+            <p>Agregar trozos de fruta a la parte superior del pastel, pueden ser de fresa, durazno, kiwi, mora azul, frambuesa o moras</p>
+            <p class="green">Precio: $50 adicional</p>
+        </div>
+        <div class="DecoracionImgContainer">
+            <img src="./Assets/img/Chocolate.jpg" alt="Pastel decorado con chocolate" class="DecoracionImg">
+            <h3>Chocolate</h3>
+            <p>Agregar decoraciones de chocolate semi-amargo con variedad de formas</p>
+            <p class="green">Precio: $80 adicional</p>
+        </div>
+        <div class="DecoracionImgContainer">
+            <img src="./Assets/img/Macaroons.jpg" alt="Pastel decorado con Macarrones" class="DecoracionImg">
+            <h3>Macarrones</h3>
+            <p>Agregar macarrones alrededor o sobre el pastel a forma de decoración</p>
+            <p class="green">Precio: $20 adicional por pieza</p>
+        </div>
+        <div class="DecoracionImgContainer">
+            <img src="./Assets/img/Fondant.jpg" alt="Pastel decorado con Fondant" class="DecoracionImg">
+            <h3>Fondant</h3>
+            <p>Adornos varios en fondant</p>
+            <p class="green">Precio: $100 (puede variar dependiendo de la figura)</p>
+        </div>
+    </div>
+    </section>
+  
+    <section id="Pedido">
+        <h2>Haz tu pedido</h2>
+        <div class="formresp">
+        <form action="">
+            <div class="formContainer">
+                <div class="formElementContainer">
+            <label for="Nombre">Ingresa tu Nombre:</label><br>
+            <input type="text" name="Nombre" id="Nombre" required><br>
+        </div>
+
+            <div class="formElementContainer">
+            <label for="Teléfono">Ingresa tu Teléfono:</label><br>
+            <input type="tel" name="Teléfono" id="Teléfono" pattern="33[0-9]{8}" Title="Por favor ingrese un número de teléfono con clave LADA de Guadalajara(33), a 10 dígitos" required><br>
+        </div>
+
+<div class="formElementContainer">
+            <label for="Email">Ingresa tu correo electrónico:</label><br>
+            <input type="email" name="Email" id="Email" required><br>
+        </div>
+
+        <div class="formElementContainer">
+            <label for="Domicilio">Ingresa el domicilio para la entrega del pastel(ZMG):</label><br>
+            <input type="text" name="Domicilio" id="Domicilio" required><br>
+        </div>    
+
+        <div class="formElementContainer">
+            <label for="Fecha">Seleccione la fecha para la entrega del pastel</label><br>
+            <input type="date" name="Fecha" id="Fecha" required min="2022-03-14"><br>
+        </div>
+
+        <div class="formElementContainer">
+            <label for="Sabores">Seleccione el sabor de su pastel (Al seleccionar más de uno, el pastel tendrá secciones iguales de cada sabor, con el costo del más caro)</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Sabores" id="Vainilla" value="Vainilla">
+            <label for="Vainilla">Vainilla</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Sabores" id="RedVelvet" value="RedVelvet">
+            <label for="RedVelvet">Red Velvet</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Sabores" id="ChocolateOscuro" value="ChocolateOscuro">
+            <label for="ChocolateOscuro">Chocolate Oscuro</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Sabores" id="Moka" value="Moka">
+            <label for="Moka">Moka</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Sabores" id="Zanahoria" value="Zanahoria">
+            <label for="Zanahoria">Zanahoria</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Sabores" id="TresLeches" value="TresLeches">
+            <label for="TresLeches">Tres Leches</label><br>
+        </div>     
+        
+        <div class="formElementContainer">
+            <label for="Decoraciones">Seleccione la decoracion adicional de su pastel (si quisiera esto, puede combinar y se cobra el precio más alto)</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Decoraciones" id="Fruta" value="Fruta">
+            <label for="Fruta">Fruta</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Decoraciones" id="Chocolate" value="Chocolate">
+            <label for="chocolate">Chocolate</label><br>
+        </div>
+        
+        <div>
+            <input type="checkbox" name="Decoraciones" id="Macarrones" value="Macarrones">
+            <label for="Macarrones">Macarrones</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Decoraciones" id="Fondant" value="Fondant">
+            <label for="Fondant">Fondant</label><br>
+        </div>
+
+        <div class="formElementContainer">
+            <label for="Descripcion">Ingrese comentarios o detalles adicionales sobre el pastel: </label><br>
+            <textarea name="Descripcion" id="Descripcion" cols="30" rows="10">En caso de aplicar, agregue la cantidad de macarrones, tipo de fruta y la decoración con fondant deseada</textarea><br>
+        </div>
+
+        <div class="formElementContainer">
+            <label for="Referencia">Agrege una imagen como referencia para el pastel (el precio puede variar)</label><br>
+            <input type="file" name="Referencia" id="Referencia" accept=".jpg,.jpeg,.png,.pdf"><br>
+        </div>
+
+        <div class="formElementContainer buttonContainer">
+            <input type="submit" value="Hacer Pedido">
+            <input type="reset" value="Limpiar TODAS las Casillas">
+        </div>
+            </div>
+        </form>
+        </div>
+    </section>
+
+    <section id="Contacto">
+        <h2>Contáctanos</h2>
+        <div class="contactresp">
+        <div class="contactContainer">
+        <div>
+            <img src="./Assets/img/Map.jpg" alt="Mapa con la ubicación de la pastelería" class="mapImg">
+        </div>
+        <div class="contactInfoContainer">
+            <p>Av. siempre viva #5000, entre calle Patriotismo y Bandera, Zapopan, Jalisco</p>
+            <p>Teléfono: +52 33 3333 3333</p>
+            <p>Email: <a href="mailto:contacto@intergalacticbakery.com">contacto@intergalacticbakery.com</a></p>
+            <p>Horario: 10:00 a 20:00 hrs</p>
+            <p>Encuentanos también en</p>
+            <div class="rappiUberContainer">
+               <a href="https://www.rappi.com.mx/" target="_blank"><img src="./Assets/img/Rappi.png" alt="Logo Rappi" class="rappiUberLogo"></a> 
+                <a href="https://www.ubereats.com/mx" target="_blank"><img src="./Assets/img/Uber.png" alt="Logo Uber Eats" class="rappiUberLogo"></a> 
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>Intergalactic Bakery &#8482; todos los derechos reservados 2022</p>
+</footer>
+</html>
